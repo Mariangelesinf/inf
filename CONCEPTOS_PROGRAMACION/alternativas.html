@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Alternativas | Programación </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Mangeles R M" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-9"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">Programación</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Conceptos de programación</a></li>
+   <li><a href="gua_didctica.html" class="no-ch">Guía didáctica</a></li>
+   <li><a href="programar.html" class="daddy">Programar</a>
+   <ul class="other-section">
+      <li><a href="algoritmos.html" class="no-ch">Algoritmos</a></li>
+      <li><a href="lenguajes_de_programacin.html" class="no-ch">Lenguajes de programación</a></li>
+      <li><a href="fases_de_la_programacin.html" class="no-ch">Fases de la programación</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="elementos_e_instrucciones.html" class="current-page-parent daddy">Elementos e instrucciones</a>
+   <ul>
+      <li><a href="operadores.html" class="no-ch">Operadores</a></li>
+      <li class="current-page-parent"><a href="estructuras_de_control.html" class="current-page-parent daddy">Estructuras de control</a>
+      <ul>
+         <li id="active"><a href="alternativas.html" class="active no-ch">Alternativas</a></li>
+         <li><a href="repetitivas.html" class="no-ch">Repetitivas</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="repaso.html" class="no-ch">Repaso</a></li>
+   <li><a href="referencias.html" class="no-ch">Referencias</a></li>
+   <li><a href="autora_y_licencia.html" class="no-ch">Autoría y licencia</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="estructuras_de_control.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="repetitivas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Alternativas</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id12">
+<div class="iDevice emphasis0">
+<div id="ta12_1" class="block iDevice_content">
+<p>Una estructura condicional permite decidir por cuál alternativa seguirá el flujo del programa dependiendo del resultado de la evaluación de una condición. Para establecer condiciones complejas se utilizan los operadores relacionales y lógicos.</p>
+<p>Se evalúa la condición y en función del resultado se ejecuta un conjunto de instrucciones u otro. Hay tres tipos de sentencias selectivas:</p>
+<div class="exe-fx exe-accordion">
+<h2>Condicional simple</h2>
+<p>Evaluamos la condición y si es verdadera ejecutamos el conjunto de sentencias asociadas al entonces, y si es falso, no hacemos nada y continuamos con la sentencia que haya a continuación.</p>
+<pre><span style="font-size: 12pt;"><strong><span style="color: #808080;">Si &lt;condición&gt; entonces</span></strong></span><br /><span style="font-size: 12pt;"><strong><span style="color: #808080;">  &lt;acciones&gt;</span></strong></span><br /><span style="font-size: 12pt;"><strong><span style="color: #808080;">Fin_si</span></strong></span></pre>
+<h2>Condicional doble</h2>
+<p>Se evalúa la condición y si es verdad se ejecutan el conjunto de acciones asociadas a la parte entonces, y si es falso se ejecutan<br />el conjunto de acciones asociadas a la parte sino (se elige uno de los dos caminos y se descarta el otro).</p>
+<pre><strong><span style="font-size: 12pt; color: #808080;">Si &lt;condición&gt; entonces</span></strong><br /><strong><span style="font-size: 12pt; color: #808080;">  &lt;acciones si verdadera&gt;</span></strong><br /><strong><span style="font-size: 12pt; color: #808080;">Si no</span></strong><br /><strong><span style="font-size: 12pt; color: #808080;">  &lt;acciones si falsa&gt;</span></strong><br /><strong><span style="font-size: 12pt; color: #808080;">Fin_Si<br /><br /><br /></span></strong></pre>
+<h2>Selectiva múltiple</h2>
+<p>Esta estructura se representa por un selector el cual si toma el valor 1 ejecutará la acción 1, si toma el valor 2 ejecutará la acción 2, si toma el valor N realizará la acción N</p>
+<pre><span style="color: #808080;"><strong><span style="font-size: 12pt;">Según-sea (expresion)</span></strong></span><br /><span style="color: #808080;"><strong><span style="font-size: 12pt;"> Caso valor1:</span></strong></span><br /><span style="color: #808080;"><strong><span style="font-size: 12pt;">    &lt;acciones&gt;</span></strong></span><br /><span style="color: #808080;"><strong><span style="font-size: 12pt;"> Caso valor2:</span></strong></span><br /><span style="color: #808080;"><strong><span style="font-size: 12pt;">    &lt;acciones&gt;</span></strong></span><br /><span style="color: #808080;"><strong><span style="font-size: 12pt;"> ....</span></strong></span><br /><span style="color: #808080;"><strong><span style="font-size: 12pt;">Fin_según</span></strong></span></pre>
+</div>
+<p></p>
+<p>Un resumen en pseudocódigo sería:</p>
+<p><img src="condicional.jpg" alt="" width="812" height="637" /></p>
+<p><img src="condicionales_diagrama_flujo.JPG" alt="" width="962" height="411" /></p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id46">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Tarea Operadores y Estructuras Alternativas</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta46_120_2" class="block iDevice_content">
+<dl class="pbl-task-info"><dt class="pbl-task-duration"><span>Duración:</span></dt><dd class="pbl-task-duration">20</dd><dt class="pbl-task-participants"><span>Agrupamiento:</span></dt><dd class="pbl-task-participants">2</dd></dl><div class="pbl-task-description"><p>Realizar expresiones utilizando los operadores y estructuras alternativas. Por ejemplo:</p>
+<p><em><strong>Si (2&gt;3)</strong></em></p>
+<p><em><strong>entonces "acción 1"</strong></em></p>
+<p><em><strong>sino "acción 2"</strong></em></p>
+<p><strong>RESULTADO. Es Falso, luego realizaría "acción 2"</strong></p>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Reconocimiento 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="estructuras_de_control.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="repetitivas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
